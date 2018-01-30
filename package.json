@@ -4,19 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint ./index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Jp-caillet/caillet-my-log.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "caillet jp",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Jp-caillet/caillet-my-log/issues"
   },
   "homepage": "https://github.com/Jp-caillet/caillet-my-log#readme",
   "dependencies": {
-    "moment": "^2.20.1"
+    "moment": "^2.20.1",
+    "eslint": "^4.16.0"
   }
 }
